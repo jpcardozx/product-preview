@@ -2,39 +2,44 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | Product preview card component</title>
-
-</head>
-
-<body>
-<div class="card">
-  <div class="img-container"><img src="./images/image-product-desktop.jpg"></div>
-  <header>
-    <h1>Perfume</h1>
-    <h2>Gabrielle Essence Eau De Parfum</h2>
-  </header>
-  <div class="content">
-    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-    <div class="price">
-      <span id="current-price">$149.99</span>
-      <span id="original-price">$169.99</span>
-    </div>
-    <button class="cart">Add to Cart</button>
-  </div>  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  
+  <title>Frontend Mentor | Product preview card component</title>  
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+</head>
+
+<body>
+<main>
+  <div class="img-container">
+    <img src="./images/image-product-desktop.jpg">
+  </div>
+  <div class="product">
+    <header>
+    <h3>PERFUME</h3>
+    <h1>Gabrielle Essence Eau De Parfum</h1>
+    </header>
+    <div class="description">
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+    </div>  
+    <div class="price">
+        <span id="current-price">$149.99</span>
+        <span id="original-price">$169.99</span>
+    </div>
+    <button class="cart">Add to Cart</button>
+  </div>
+</main> 
+  <!--<footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>-->
+  
+
 </body>
 </html>
