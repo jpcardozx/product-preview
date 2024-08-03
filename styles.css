@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    padding: 175px 420px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2eae2;
+}
+
+.card {
+    display: flex;
+    max-width: 600px;
+    flex-shrink: 0;
+    margin: 175px;
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: auto;
+    height: auto%;
+    object-fit: cover;
+  }
+
+.img-container, .content {
+    flex: 1;
+}
