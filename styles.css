@@ -1,6 +1,6 @@
 body {
     display: flex;
-    width: autos;
+    width: auto;
     height: auto;
     padding: 175px 420px;
     justify-content: center;
@@ -63,6 +63,15 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: 23px; /* 164.286% */
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 38px
 }
 
 #current-price {
@@ -83,4 +92,36 @@ h1 {
     font-weight: 500;
     line-height: 23px; /* 176.923% */
     text-decoration-line: strikethrough;
+    text-decoration: line-through;
+}
+
+.cart {
+    border-radius: 8px;
+    background: #3D8168;
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+    color: white;
+    font-weight: 600px;
+    gap: 3rem;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+svg {
+    margin-right: 5px;
 }
